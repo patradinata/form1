@@ -1,0 +1,48 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+
+.form-container {
+  width: 340px;
+  height: 300px;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form-container form {
+  width: 100%;
+  padding: 12px;
+}
+
+.form-container input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  margin: 0 10px;
+  border-radius: 15px;
+  height: 3rem;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+
+.form-container label {
+  color: white;
+  margin-left: 20px;
+}

@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  background-color: crimson;
+  line-height: 2px;
+  min-height: 1000vh;
+}
+
+.navbar-container {
+  height: 100%;
+  border-bottom: 1px dashed;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-container .navbar-logo {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  text-shadow: 0 0 0 10 10px #ff0000;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 20px;
+  padding-inline-end: 30px;
+}
+
+.navbar-nav ol li {
+  list-style-type: none;
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.navbar-nav ol li a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+
+.navbar-nav ol li a:hover {
+  color: #0ef;
+  outline: none;
+}

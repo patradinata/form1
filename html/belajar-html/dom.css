@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #eaeaea;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-box {
+  width: 30rem;
+  height: 10rem;
+  position: relative;
+  background-color: #ffff;
+  border-radius: 20px;
+}
+
+#text {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.tombol {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.paragraf {
+  position: absolute;
+  top: 70%;
+}
+
+.ubah-warna-body {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+}
+
+#merah {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+#aqua {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: aqua;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+#hijau {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+#biru {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+#merah:hover {
+  transform: scale(1.08);
+}
+
+#kuning:hover {
+  transform: scale(1.08);
+}
+#hijau:hover {
+  transform: scale(1.08);
+}
+#biru:hover {
+  transform: scale(1.08);
+}
+
+.red {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.aqua {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: aqua;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.green {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.blue {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: all 0.4s ease;
+}
